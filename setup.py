@@ -38,7 +38,7 @@ setup(name='misitio.policy',
           # -*- Extra requirements: -*-
           'collective.nitf',
           'Products.CMFPlacefulWorkflow',
-		  'misitio.utilities'
+		  'misitio.utilities',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
